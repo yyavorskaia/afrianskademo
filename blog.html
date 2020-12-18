@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrianska-blog</title>
+  <link rel="preload" href="fonts/Gilroy.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gilroy.woff" as="font" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  
+</head>
+
+<body class="blog-page">
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__wrapper">
+        <a class="page-header__logo" href="#">
+          <img class="page-header__logo-icon" src="img/logo.svg" alt="logo">
+        </a>
+        <div class="page-header__nav-wrapper">
+          <ul class="page-header__list">
+            <li class="page-header__item">
+              <a class="page-header__link" href="index.html">Home</a>
+            </li>
+            <li class="page-header__item">
+              <a class="page-header__link" href="form.html">Contact Us</a>
+            </li>
+            <li class="page-header__item">
+              <a class="page-header__link page-header__link--active" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-header__burger">
+          <span class="page-header__burger-line page-header__burger-line--first"></span>
+          <span class="page-header__burger-line page-header__burger-line--second"></span>
+          <span class="page-header__burger-line page-header__burger-line--third"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-main__top top">
+      <div class="container">
+        <div class="top__wrapper">
+          <h2 class="top__title">Blog Afrianska</h2>
+          <p class="top__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="page-main__input-group input-group">
+      <div class="container">
+        <div class="input-group__item">
+          <div class="input-group__search-icon">
+            <img class="input-group__icon" src="img/search.svg" alt="search">
+          </div>
+          <input class="input-group__input input-group__input--search" type="text" placeholder="Search Article" id="search" name="search" required="">
+        </div>
+      </div>
+    </section>
+    <div class="page-main__wrapper-two" id="popular">
+      <div class="page-main__title-wrapper-two">
+        <div class="container">
+          <h2 class="page-main__title-two">Popular</h2>
+        </div>
+      </div>
+      <section class="page-main__news news">
+        <div class="container">
+          <div class="news__catalog">
+            <ul class="news__slider-list">
+              <li class="news__slider-item news__slider-item--house">
+                <img class="news__image" src="img/house.png" width="300" height="200" alt="house">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Feugiat sodales at nullam<br> tellus.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--business">
+                <img class="news__image" src="img/business.png" width="300" height="200" alt="business">
+                <div class="news__card-wrapper"> 
+                  <h3 class="news__title">Porta proin tellus sed<br>pulvinar odio eu pulvinar.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--travels">
+                <img class="news__image" src="img/travels.png" width="300" height="200" alt="travels">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Non quam tortor, proin eu egestas scelerisque<br> purus.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--work">
+                <img class="news__image" src="img/work.png" width="300" height="200" alt="work">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Amet amet sed pharetra risus sit eget interdum.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--house">
+                <img class="news__image" src="img/house.png" width="300" height="200" alt="house">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Feugiat sodales at nullam<br> tellus.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--business">
+                <img class="news__image" src="img/business.png" width="300" height="200" alt="business">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Porta proin tellus sed<br> pulvinar odio eu pulvinar.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--travels">
+                <img class="news__image" src="img/travels.png" width="300" height="200" alt="travels">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Non quam tortor, proin eu egestas scelerisque<br> purus.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="news__slider-item news__slider-item--work">
+                <img class="news__image" src="img/work.png" width="300" height="200" alt="work">
+                <div class="news__card-wrapper">
+                  <h3 class="news__title">Amet amet sed pharetra risus sit eget interdum.</h3>
+                  <p class="news__presentation">
+                    Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <div class="news__author-wrapper">
+                    <div class="news__author-info">
+                      <span class="news__author-name">Samatha Leuthex</span>
+                      <span class="news__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="news__forward-info">
+                      <img class="news__forward-icon" src="img/news.svg" alt="news">
+                      <img class="news__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="page-main__wrapper-three" id="article">
+      <div class="page-main__title-wrapper-three">
+        <div class="container">
+          <h2 class="page-main__title-three">All article</h2>
+        </div>
+      </div>
+      <section class="page-main__overview overview">
+        <div class="container">
+          <div class="overview__catalog">
+            <ul class="overview__list">
+              <li class="overview__item overview__item--auto">
+                <img class="overview__image" src="img/auto.png" width="300" height="200" alt="auto">
+                <div class="overview__card-wrapper" id="co">
+                  <h3 class="overview__title">Massa eu in laoreet enim augue vulputate nunc.</h3>
+                  <p class="overview__presentation">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.
+                  </p>
+                  <div class="overview__author-wrapper">
+                    <div class="overview__author-info">
+                      <span class="overview__author-name">Samatha Leuthex</span>
+                      <span class="overview__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="overview__forward-info">
+                      <img class="overview__forward-icon" src="img/news.svg" alt="news">
+                      <img class="overview__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="overview__item overview__item--architecture">
+                <img class="overview__image" src="img/architecture.png" width="300" height="200" alt="architecture">
+                <div class="overview__card-wrapper"> 
+                  <h3 class="overview__title">Feugiat a euismod arcu feugiat posuere morbi.</h3>
+                  <p class="overview__presentation">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.
+                  </p>
+                  <div class="overview__author-wrapper">
+                    <div class="overview__author-info">
+                      <span class="overview__author-name">Samatha Leuthex</span>
+                      <span class="overview__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="overview__forward-info">
+                      <img class="overview__forward-icon" src="img/news.svg" alt="news">
+                      <img class="overview__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="overview__item overview__item--tropics">
+                <img class="overview__image" src="img/tropics.png" width="300" height="200" alt="tropics">
+                <div class="overview__card-wrapper">
+                  <h3 class="overview__title">Sociis purus pellentesque faucibus vitae et felis.</h3>
+                  <p class="overview__presentation">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.
+                  </p>
+                  <div class="overview__author-wrapper">
+                    <div class="overview__author-info">
+                      <span class="overview__author-name">Samatha Leuthex</span>
+                      <span class="overview__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="overview__forward-info">
+                      <img class="overview__forward-icon" src="img/news.svg" alt="news">
+                      <img class="overview__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="overview__item overview__item--diving">
+                <img class="overview__image" src="img/diving.png" width="300" height="200" alt="diving">
+                <div class="overview__card-wrapper">
+                  <h3 class="overview__title">Cursus feugiat mi pellentesque mauris sed eu.</h3>
+                  <p class="overview__presentation">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.
+                  </p>
+                  <div class="overview__author-wrapper">
+                    <div class="overview__author-info">
+                      <span class="overview__author-name">Samatha Leuthex</span>
+                      <span class="overview__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="overview__forward-info">
+                      <img class="overview__forward-icon" src="img/news.svg" alt="news">
+                      <img class="overview__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="overview__item overview__item--analytics">
+                <img class="overview__image" src="img/analytics.png" width="300" height="200" alt="analytics">
+                <div class="overview__card-wrapper">
+                  <h3 class="overview__title">A morbi arcu curabitur etiam fringilla augue.</h3>
+                  <p class="overview__presentation">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.
+                  </p>
+                  <div class="overview__author-wrapper">
+                    <div class="overview__author-info">
+                      <span class="overview__author-name">Samatha Leuthex</span>
+                      <span class="overview__data">May 5, 3 min read</span>
+                    </div>
+                    <div class="overview__forward-info">
+                      <img class="overview__forward-icon" src="img/news.svg" alt="news">
+                      <img class="overview__forward-icon" src="img/forward.svg" alt="forward">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="page-main__sentence sentence">
+      <div class="sentence__bg-wrapper">
+        <div class="container">
+          <div class="sentence__wrapper">
+            <h2 class="sentence__title">Intersted to woek<br> with our team?</h2>
+            <p class="sentence__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore
+              et dolore<br> magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <div class="sentence__button" onclick="viewDiv()">Let’s Talk</div>
+            <div id="get"><input class="tell" placeholder="tell us about yourself..."></div>
+          </div>
+          <div class="sentence__line"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__bg-wrapper">
+      <div class="container">
+        <div class="page-footer__wrapper">
+          <div class="page-footer__column-wrapper">
+            <div class="page-footer__left-wrapper">
+              <a class="page-footer__logo" href="#">
+                <img class="page-footer__logo-icon" src="img/logo-footer.svg" alt="logo-footer">
+                <span class="page-footer__logo-name">Afrianska</span>
+              </a>
+              <div class="page-footer__contacts contacts">
+                <div class="contacts__item contacts__item--address">
+                  <span class="contacts__marker">A.</span>
+                  <address class="contacts__address ">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.
+                  </address>
+                </div>
+                <div class="contacts__item contacts__item--tel">
+                  <span class="contacts__marker">T.</span>
+                  <a class="contacts__link" href="tel:+62-812-7313-4321">+62-812-7313-4321</a>
+                </div>
+                <div class="contacts__item contacts__item--mail">
+                  <span class="contacts__marker">Е</span>
+                  <a class="contacts__link" href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="page-footer__right-wrapper">
+              <div class="page-footer__info info">
+                <h4 class="info__title">About US</h4>
+                <ul class="info__list">
+                  <li class="info__item">
+                    <a class="info__link" href="#">About</a>
+                  </li>
+                  <li class="info__item">
+                    <a class="info__link" href="#">What We Do</a>
+                  </li>
+                  <li class="info__item">
+                    <a class="info__link" href="#">Project</a>
+                  </li>
+                  <li class="info__item">
+                    <a class="info__link" href="#">How It Work With Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="page-footer__social social">
+                <h4 class="social__title">Follow US</h4>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.youtube.com/" target="_blank">Youtube</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="page-footer__copyright">2019 &#169; Afrianska. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/script.js"></script>
+    
+</body>
+
+</html>

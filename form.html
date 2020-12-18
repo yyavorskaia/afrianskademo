@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afrianska-form</title>
+  <link rel="preload" href="fonts/Gilroy.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Gilroy.woff" as="font" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="form-page">
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__wrapper">
+        <a class="page-header__logo" href="#">
+          <img class="page-header__logo-icon" src="img/logo.svg" alt="logo">
+        </a>
+        <div class="page-header__nav-wrapper">
+          <ul class="page-header__list">
+            <li class="page-header__item">
+              <a class="page-header__link " href="index.html">Home</a>
+            </li>
+            <li class="page-header__item">
+              <a class="page-header__link page-header__link--active" href="#">Contact Us</a>
+            </li>
+            <li class="page-header__item">
+              <a class="page-header__link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-header__burger">
+          <span class="page-header__burger-line page-header__burger-line--first"></span>
+          <span class="page-header__burger-line page-header__burger-line--second"></span>
+          <span class="page-header__burger-line page-header__burger-line--third"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-main__top top">
+      <div class="container">
+        <div class="top__wrapper">
+          <h2 class="top__title">Contact Us</h2>
+          <p class="top__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="page-main__company company">
+      <div class="container">
+        <div class="company__wrapper">
+          <div class="company__left-wrapper">
+            <img class="company__image" src="img/company.svg" alt="company">
+            <div class="company__connection">
+              <div class="company__item company__item--location">
+                <span class="company__title">Address</span>
+                <address class="company__location">Id convallis placerat sit sed duis id<br> amet volutpat quam a,
+                  pharetra.</address>
+              </div>
+              <div class="company__item company__item--tel">
+                <span class="company__title">Phone</span>
+                <div class="company__link-shell">
+                  <img class="company__icon" src="img/phone.svg" alt="phone-icon">
+                  <a class="company__link" href="tel:+62-812-7313-4321">+62-812-7313-4321</a>
+                </div>
+                <div class="company__link-shell">
+                  <img class="company__icon" src="img/phone.svg" alt="phone-icon">
+                  <a class="company__link" href="tel:+62-817-0000-1234">+62-817-0000-1234</a>
+                </div>
+              </div>
+              <div class="company__item company__item--online">
+                <span class="company__title">Online service</span>
+                <div class="company__link-shell">
+                  <img class="company__icon" src="img/globe.svg" alt="globe-icon">
+                  <a class="company__link" href="http://www.afrianska.com/">www.afrianska.com</a>
+                </div>
+                <div class="company__link-shell">
+                  <img class="company__icon" src="img/letter.svg" alt="letter-icon">
+                  <a class="company__link" href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="company__right-wrapper">
+            <div class="company__form form">
+              <div class="  s">
+                <h3 class="form__title">Send us message</h3>
+                <form class="form__modal" action="#" method="get">
+                  <div class="form">
+                    <div class="form__controls">
+                      <label class="form__label" for="name">Full Name</label>
+                      <input class="form__input" minlength="3" type="text" name="name" id="name" value="Your name"
+                        required>
+                    </div>
+                    <div class="form__controls">
+                      <label class="form__label" for="email">Email</label>
+                      <input class="form__input" type="email" name="email" id="email" value="Your email" required>
+                    </div>
+                    <div class="form__controls">
+                      <label class="form__label" for="message">Message</label>
+                      <textarea class="form__input form__input--textarea" rows="4" name="message"
+                        id="message">Your message</textarea>
+                    </div>
+                    <button type="submit" class="form__button">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-main__map map">
+      <div class="container">
+        <div class="map__realization">
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-main__sentence sentence">
+      <div class="sentence__bg-wrapper">
+        <div class="container">
+          <div class="sentence__wrapper">
+            <h2 class="sentence__title">Intersted to woek<br> with our team?</h2>
+            <p class="sentence__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore
+              et dolore<br> magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <a class="sentence__button" href="#">Let’s Talk</a>
+          </div>
+          <div class="sentence__line"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__bg-wrapper">
+      <div class="container">
+        <div class="page-footer__wrapper">
+          <div class="page-footer__column-wrapper">
+            <div class="page-footer__left-wrapper">
+              <a class="page-footer__logo" href="#">
+                <img class="page-footer__logo-icon" src="img/logo-footer.svg" alt="logo-footer">
+                <span class="page-footer__logo-name">Afrianska</span>
+              </a>
+              <div class="page-footer__contacts contacts">
+                <div class="contacts__item contacts__item--address">
+                  <span class="contacts__marker">A.</span>
+                  <address class="contacts__address ">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.
+                  </address>
+                </div>
+                <div class="contacts__item contacts__item--tel">
+                  <span class="contacts__marker">T.</span>
+                  <a class="contacts__link" href="tel:+62-812-7313-4321">+62-812-7313-4321</a>
+                </div>
+                <div class="contacts__item contacts__item--mail">
+                  <span class="contacts__marker">Е</span>
+                  <a class="contacts__link" href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="page-footer__right-wrapper">
+              <div class="page-footer__info info">
+                <h4 class="info__title">About US</h4>
+                <ul class="info__list">
+                  <li class="info__item">
+                    <a class="info__link" href="#">About</a>
+                  </li>
+                  <li class="info__item">
+                    <a class="info__link" href="#">What We Do</a>
+                  </li>
+                  <li class="info__item">
+                    <a class="info__link" href="#">Project</a>
+                  </li>
+                  <li class="info__item">
+                    <a class="info__link" href="#">How It Work With Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="page-footer__social social">
+                <h4 class="social__title">Follow US</h4>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                  </li>
+                  <li class="social__item">
+                    <a class="social__link" href="https://www.youtube.com/" target="_blank">Youtube</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="page-footer__copyright">2019 &#169; Afrianska. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLObJOEHDii7f4h9SbGXrMZRs2JvSmlJQ&callback=initMap"
+    async defer></script>
+
+
+</body>
+
+</html>
