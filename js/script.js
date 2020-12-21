@@ -6,6 +6,20 @@ burger.addEventListener('click', () => {
     burger.classList.toggle('page-header__burger--active');
 });
 
+const anchors = document.querySelectorAll('a.scroll-to')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+
+    const blockID = anchor.getAttribute('href')
+
+    document.querySelector(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
 
 function initMap() {
   var pos = {
@@ -25,16 +39,6 @@ function initMap() {
     title: 'University of Ottawa'
   });
 }
-
-$(document).ready(function () {
-  $('.intro__slider-list').slick({
-    arrows: false,
-    dots: true,
-    slidesToShow: 1,
-    speed: 1000,
-    autoplaySpeed: 800,
-  });
-});
 
 $(document).ready(function () {
   $('.news__slider-list').slick({
